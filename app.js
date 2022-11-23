@@ -9,7 +9,7 @@ app.get("/message", (req, res) => {
   res.json({ message: "TALENT PLUS" });
 });
 
-const port = 8000
+const port = 3000
 
 app.listen(port, () => {
     console.log(`App running on ${port}`)
